@@ -54,7 +54,7 @@ const Home = () => {
           >
             <option value="">Select a Make</option>
             {makes.map((make) => (
-              <option key={make.MakeId} value={make.MakeName} className="text-slate-700">
+              <option key={make.MakeId} value={make.MakeId} className="text-slate-700">
                 {make.MakeName}
               </option>
             ))}
